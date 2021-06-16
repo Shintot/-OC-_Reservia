@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/24f7fe336c.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="flexBetween">
+            <div><img src="Reservia@3x.png" alt="LeLogoReversia" class="logoreversia"></div>
+            <div class="flexAround sizeLiens" >
+                <a href="Hébergement.html" class="stylehebergement bordurebleu flexcentre">Hébergement</a>
+                <a href="activité.html" class="styleactivites flexcentre">activité</a>
+                <a href="s'inscrire.html" class="stylesinscrire flexcentre">s'inscrire</a>
+            </div>
+        </div>
+    </nav>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form method="POST" action="traitement.php">
+            <p>
+                <label for="ville,pays"></label><i class="fas fa-map-marker-alt"></i></label>
+                <input type="text" name="ville,pays" id="ville,pays" placeholder="Marseille,France">
+            </p>
+            <input type="submit" value="Rechercher">
+        </form>
+        <p>Filtres</p>
+        <a class="button" href="filtres.php"><i class="fas fa-money-bill-wave"></i>Economique</a>
+        <a class="button" href="filtres.php"><i class="fas fa-child"></i>Familial</a>
+        <a class="button" href="filtres.php"><i class="fas fa-heart"></i>Romantique</a>
+        <a class="button" href="filtres.php"><i class="fas fa-dog"></i>Animaux autorisés</a><br>
+        <i class="fas fa-info">Plus de 500 logements sont disponible dans cette ville</i>
+    </header>
+    <section>
+        <article>
+            <h2>Hébergement à Marseille</h2>
+            <div class="main">
+                <img src="Auberge la Cannebière.jpg" class="Cannebière">
+                <img src="Hôtel du port.jpg" class="Port">
+                <img src="Hôtel Les mouettes.jpg" class="mouettes">
+                <img src="Hôtel de la mer.jpg" class="mer">
+                <img src="Auberge Le panier.jpg" class="Cannebière">
+                <img src="Hôtel chez Amina.jpg" class="Cannebière">
+            </div>
+        </article>
+        <aside>
+
+        </aside>
+    </section>
+</body>
+</html>

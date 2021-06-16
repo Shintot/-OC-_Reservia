@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexcentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stylehebergement {
+    color: blue;
+    text-decoration: none;
+    width: 140px;
+    height: 99px;
+    font-family: 'Raleway' ;
+}
+
+.bordurebleu {
+    border-top: 1px solid blue;
+}
+
+.styleactivites {
+    color:black;
+    text-decoration: none;
+    font-family: 'Raleway' ;
+}
+
+.stylesinscrire {
+    color: blue;
+    text-decoration: none;
+    font-family: 'Raleway' ;
+}
+
+.logoreversia {
+    width: 115px;
+    
+}
+
+.sizeLiens{
+    width: 45%;
+}
