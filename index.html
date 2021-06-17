@@ -18,14 +18,16 @@
             </div>
         </div>
     </nav>
+    <div class="textetrouvez">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
+    </div>
         <form method="POST" action="traitement.php">
-            <p>
-                <label for="ville,pays"></label><i class="fas fa-map-marker-alt"></i></label>
-                <input type="text" name="ville,pays" id="ville,pays" placeholder="Marseille,France">
+            <p class="bordurebutrecherche flexcentre">
+                <label class="tailleicone flexcentre" for="ville,pays"><i class="fas fa-map-marker-alt"></i></label>
+                <input type="text" name="ville,pays" value="Marseille,France" class="paddingbutton butrecherche flexcentre">
+                <input type="submit" value="Rechercher" class="fondbleu flexcentre buttonrecherche">
             </p>
-            <input type="submit" value="Rechercher">
         </form>
         <p>Filtres</p>
         <a class="button" href="filtres.php"><i class="fas fa-money-bill-wave"></i>Economique</a>

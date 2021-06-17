@@ -52,3 +52,44 @@
 .sizeLiens{
     width: 45%;
 }
+
+.textetrouvez {
+    font-family: 'Raleway';
+}
+
+.bordurebutrecherche {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.tailleicone {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    background-color: #f2f2f2;
+}
+
+.butrecherche{
+    height: 46px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    border: 0.2px solid #f2f2f2;
+}
+
+.fondbleu {
+    background-color: #0065FC;
+} 
+
+.buttonrecherche {
+    height: 50px;
+    width: 120px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.paddingbutton{
+    padding-left: 10px;
+}
