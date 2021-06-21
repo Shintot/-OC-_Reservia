@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+                                    /* General */
+
+body {
+    font-family: 'Raleway';
+}
 
 .flexAround{
     display: flex;
@@ -14,14 +19,35 @@
     align-items: center;
 }
 
+
+.flexcentrecolone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAroundcolone{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.flexBetweencolone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .flexcentre {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+                                    /* navbar */
 .stylehebergement {
-    color: blue;
+    color: #0065FC;
     text-decoration: none;
     width: 140px;
     height: 99px;
@@ -39,22 +65,24 @@
 }
 
 .stylesinscrire {
-    color: blue;
+    color: #0065FC;
     text-decoration: none;
     font-family: 'Raleway' ;
+    font-weight: bold;
 }
 
 .logoreversia {
     width: 115px;
     
 }
-
+                                    /* Recherche */     
 .sizeLiens{
     width: 45%;
 }
 
 .textetrouvez {
-    font-family: 'Raleway';
+    font-size: 13px;
+    
 }
 
 .bordurebutrecherche {
@@ -88,8 +116,172 @@
     border: none;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+    font-weight: bold;
 }
 
 .paddingbutton{
     padding-left: 10px;
+}
+
+                                        /* filtres */
+
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.txtfiltres {
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.bordurefiltres:hover > .filtretexte {
+    color: #0065FC;
+}
+.bordurefiltres:hover > .bordureicone {
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtretexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.bordurefiltres {
+    border: 2px solid #f2f2f2 ;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer
+    
+}
+
+.bordureicone{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #deebfF; 
+}
+                                        /* Info */
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.couleurinfo {
+    color: #0065FC;
+}
+
+.rond {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.txtdecal {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+                                    /* Hebergements */
+.fondhebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.fondpopulaires {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.fondgris {
+    background-color: #F2F2F2 ;
+}
+
+.Hbloc {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contourblanc {
+    width: 29%;
+    height: auto;
+    background-color: white;
+    padding: 0.5%;
+    border-radius: 20px ;
+}
+
+.c1 {
+    margin-bottom: 15px;
+}
+
+.c2 {
+    margin-top: 15px;
+}
+
+.imgH1 {
+    background-image: url("marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgH2 {
+    background-image: url("fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgH3 {
+    background-image: url("reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgH4 {
+    background-image: url("annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgH5 {
+    background-image: url("nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgH6 {
+    background-image: url("febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
 }

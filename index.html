@@ -2,51 +2,90 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/24f7fe336c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Reservia.svg">
     <title>Reservia</title>
 </head>
 <body>
     <header>
-    <nav>
-        <div class="flexBetween">
-            <div><img src="Reservia@3x.png" alt="LeLogoReversia" class="logoreversia"></div>
-            <div class="flexAround sizeLiens" >
-                <a href="Hébergement.html" class="stylehebergement bordurebleu flexcentre">Hébergement</a>
-                <a href="activité.html" class="styleactivites flexcentre">activité</a>
-                <a href="s'inscrire.html" class="stylesinscrire flexcentre">s'inscrire</a>
+        <nav>
+            <div class="flexBetween">
+                <div><img src="Reservia@3x.png" alt="LeLogoReversia" class="logoreversia"></div>
+                <div class="flexAround sizeLiens" >
+                    <a href="Hébergement.html" class="stylehebergement bordurebleu flexcentre">Hébergement</a>
+                    <a href="activité.html" class="styleactivites flexcentre">Activité</a>
+                    <a href="s'inscrire.html" class="stylesinscrire flexcentre">S'inscrire</a>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="textetrouvez">
+        </nav>
+        <div class="textetrouvez">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-    </div>
-        <form method="POST" action="traitement.php">
-            <p class="bordurebutrecherche flexcentre">
-                <label class="tailleicone flexcentre" for="ville,pays"><i class="fas fa-map-marker-alt"></i></label>
-                <input type="text" name="ville,pays" value="Marseille,France" class="paddingbutton butrecherche flexcentre">
-                <input type="submit" value="Rechercher" class="fondbleu flexcentre buttonrecherche">
-            </p>
-        </form>
-        <p>Filtres</p>
-        <a class="button" href="filtres.php"><i class="fas fa-money-bill-wave"></i>Economique</a>
-        <a class="button" href="filtres.php"><i class="fas fa-child"></i>Familial</a>
-        <a class="button" href="filtres.php"><i class="fas fa-heart"></i>Romantique</a>
-        <a class="button" href="filtres.php"><i class="fas fa-dog"></i>Animaux autorisés</a><br>
-        <i class="fas fa-info">Plus de 500 logements sont disponible dans cette ville</i>
+        </div>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form method="POST" action="traitement.php">
+                <p class="bordurebutrecherche flexcentre">
+                    <label class="tailleicone flexcentre" for="ville,pays"><i class="fas fa-map-marker-alt"></i></label>
+                    <input type="text" name="ville,pays" value="Marseille,France" class="paddingbutton butrecherche flexcentre">
+                    <input type="submit" value="Rechercher" class="fondbleu flexcentre buttonrecherche">
+                </p>
+            </form>
+            <div class="filtres">
+                <h3 class="txtfiltres">Filtres</h3>
+                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-money-bill-wave fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Economique</h3></div>
+                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-child fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Familial</h3></div>
+                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-heart fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Romantique</h3></div>
+                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-dog fa-lg bordureicone flexcentre "></i><h3 class="filtretexte flexcentre">Animaux autorisés</h3></div>
+            </div>
+        <div class="info"><i class="fas fa-info couleurinfo rond flexcentre"></i><p class="txtdecal">Plus de 500 logements sont disponible dans cette ville</p></div>
     </header>
     <section>
-        <article>
-            <h2>Hébergement à Marseille</h2>
-            <div class="main">
-                <img src="Auberge la Cannebière.jpg" class="Cannebière">
-                <img src="Hôtel du port.jpg" class="Port">
-                <img src="Hôtel Les mouettes.jpg" class="mouettes">
-                <img src="Hôtel de la mer.jpg" class="mer">
-                <img src="Auberge Le panier.jpg" class="Cannebière">
-                <img src="Hôtel chez Amina.jpg" class="Cannebière">
+        <article class="flexAround">
+            <div class="fondhebergements fondgris Hbloc">
+                <h2>Hébergement à Marseille</h2>
+                <div class="c1 flexBetween">
+                    <div class="contourblanc">
+                        <div class="imgH1"></div>
+                        <h3>Auberge de la cannebiére</h3>
+                        <p>Nuit à partir de 25€</p>
+                        <div>☆</div>
+                    </div>
+                
+                    <div class="contourblanc">
+                        <div class="imgH2"></div>
+                        <h3>Hôtel du port</h3>
+                        <p>Nuit à partir de 52€</p>
+                        <div>☆</div>
+                    </div>
+                    <div class="contourblanc">
+                        <div class="imgH3"></div>
+                        <h3>Hôtel Les mouettes</h3>
+                        <p>Nuit à partir de 76€</p>
+                        <div>☆</div>
+                    </div>
+                </div>
+                <div class="c2 flexBetween">
+                    <div class="contourblanc">
+                        <div class="imgH4"></div>
+                        <h3>Hôtel de la mer</h3>
+                        <p>Nuit à partir de 46€</p>
+                        <div>☆</div>
+                    </div>
+                    <div class="contourblanc">
+                        <div class="imgH5"></div>
+                        <h3>Auberge Le Panier</h3>
+                        <p>Nuit à partir de 23€</p>
+                        <div>☆</div>
+                    </div>
+                    <div class="contourblanc">
+                        <div class="imgH6"></div>
+                        <h3>Hôtel chez Amina</h3>
+                        <p>Nuit à partir de 96€</p>
+                        <div>☆</div>
+                    </div>
+                </div>
             </div>
+            <div class="fondpopulaires fondgris"></div>
         </article>
         <aside>
 
