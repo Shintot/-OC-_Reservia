@@ -6,7 +6,17 @@
 body {
     font-family: 'Raleway';
 }
+header {
+    margin-left: 20px;
+}
 
+.couleur {
+    color: #0065FC;
+}
+
+.couleurGris {
+    color: #f2f2f2;
+}
 .flexAround{
     display: flex;
     justify-content: space-around;
@@ -195,16 +205,18 @@ body {
                                     /* Hebergements */
 .fondhebergements {
     flex: 2;
-    height: 750px;
+    height: 800px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
+    margin-bottom: 80px;
 }
 
 .fondpopulaires {
-    flex: 1;
-    height: 750px;
+    flex: 0.8;
+    height: 800px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
+    margin-bottom: 80px;
 }
 
 .fondgris {
@@ -297,7 +309,7 @@ body {
                                                                                  /* Populaires */
 .textpop {
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .iconepop {
@@ -305,8 +317,13 @@ body {
 }
 
 .blocpop {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+
+.blocpop2 {
+    padding-left: 50px;
+    padding-right: 50px;    
 }
 
 .contourajuste{
@@ -320,14 +337,22 @@ height: auto;
 border-radius: 20px ;
 padding: 1% 0 1% 1%;
 }
-.textimgP1 {
+.textimgP {
     line-height: 80%;
+    padding-bottom: 30px;
+    margin-top: -50px;
 }
 
+.etoileplacementpop {
+    margin-bottom: -10px;
+}
 .espacePop1-2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
+.centragepop {
+    padding-bottom: 60px;
+}
 .imgP1 {
     background-image: url("emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
@@ -353,4 +378,126 @@ padding: 1% 0 1% 1%;
     width: 32%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+}
+
+                                                                                 /* Activites */
+
+.activites {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.blocactivites {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.blocactivites2356 {
+    width: 23%;
+    height: 600px;    
+}
+
+.reglageespace{
+    margin-top: 70px;
+}
+
+.reglageespacetitre{
+    margin-bottom: 30px;
+}
+.blocA {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.blocA2356{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.titrehauteu{
+    height: 70px;
+}
+
+.titrereglage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imgact1{
+    background-image: url("reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact2{
+    background-image: url("paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact3{
+    background-image: url("kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact4{
+    background-image: url("kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact5{
+    background-image: url("florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact6{
+    background-image: url("lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+                                                                                 /* Footer */
+.footer{
+    height: 300px;
+    margin-top:100px;
+}
+
+.bloctaille{
+    height: 150px;
+}
+
+.blocmarge1{
+    margin-left: 5%;
+}
+
+.blocmarge2{
+    margin-left: 60%;
 }
