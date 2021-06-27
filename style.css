@@ -499,5 +499,59 @@ padding: 1% 0 1% 1%;
 }
 
 .blocmarge2{
-    margin-left: 60%;
+    margin-right: 15%;
+}
+                                                                                 /* responsive*/
+
+@media screen and (max-width:900px)
+{
+    header {
+        display: block;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .filtres{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .fondpopulaires {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+    
+    .responsive1 {
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+
+    .responsive2 {
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+
+    .responsive3 {
+        display: flex;
+        align-items: center;
+        width: 500px;
+    }
+    .fondpopulaires {
+        display: flex;
+        height: 800px;
+        width: 500px;
+      
+    }
+
+    .fondhebergements {
+        display: none
+    }
+
 }
