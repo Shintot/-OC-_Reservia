@@ -57,26 +57,51 @@ header {
 }
                                     /* navbar */
 .stylehebergement {
-    color: #0065FC;
+    color: black ;
     text-decoration: none;
     width: 140px;
     height: 99px;
+    font-size: 16px;
     font-family: 'Raleway' ;
 }
 
 .bordurebleu {
-    border-top: 1px solid blue;
+    border-top: 1px solid transparent;
+}
+
+.bordurebleu2 {
+    border-top: 1px solid transparent;
+}
+
+.bordurebleu2:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;  
+}
+
+.bordurebleu:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;  
+}
+
+.bordurebleu:hover > a {
+    color: #0065FC;  
 }
 
 .styleactivites {
     color:black;
+    width: 140px;
+    height: 99px;
     text-decoration: none;
+    font-size: 16px;
     font-family: 'Raleway' ;
 }
 
 .stylesinscrire {
     color: #0065FC;
+    width: 140px;
+    height: 99px;
     text-decoration: none;
+    font-size: 16px;
     font-family: 'Raleway' ;
     font-weight: bold;
 }
@@ -129,6 +154,10 @@ header {
     font-weight: bold;
 }
 
+.buttonrecherche :hover {
+        color: #0065FC;
+        background-color: #f2f2f2;
+}
 .paddingbutton{
     padding-left: 10px;
 }
@@ -503,29 +532,49 @@ padding: 1% 0 1% 1%;
 }
                                                                                  /* responsive*/
 
-@media screen and (max-width:900px)
+ @media screen and (min-width:0px) and (max-width:1000px)
 {
     header {
         display: block;
         width: 100%;
         flex-direction: column;
     }
-
+                                  /* filtres*/ 
+                            
     .filtres{
         display: flex;
         flex-flow: column wrap;
         align-items: flex-start;
         margin-top: 20px;
         margin-bottom: 50px;
+    } 
+    .responsivesliens {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+}                                                      
+    
+@media screen and (min-width:0px) and (max-width:1084px)
+{
+    header {
+        display: block;
+        width: 100%;
+        flex-direction: column;
     }
     
     
+                                   /* populaires*/
     .fondpopulaires {
         display: flex;
         flex-flow: column wrap;
         align-items: flex-start;
     }
-    
+
+    .iconepop {
+        align-items: flex-end;
+    }
+
     .responsive1 {
         display: flex;
         align-items: center;
@@ -549,9 +598,29 @@ padding: 1% 0 1% 1%;
         width: 500px;
       
     }
-
+                                /* carte-hebergement*/
     .fondhebergements {
         display: none
     }
 
+                                 /*boutonslien (Hébergement,Activités,S'inscrire*/
+    .responsivesliens {
+       flex-direction: column;
+    }
+    
+    .responsive5 {
+        display: flex;
+        align-items: center;
+        
+     }
+
+    .bordurebleu {
+        border-bottom: 1px solid #0065FC;
+        border-top: none;
+   }
+   .bordurbleu2 {
+    border-bottom: 1px solid #0065FC;
+    border-top: none;
+   }    
+    
 }
