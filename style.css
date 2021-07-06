@@ -115,6 +115,7 @@ header {
 .logoreversia {
     width: 115px;
     
+    
 }
                                     /* Recherche */     
 .sizeLiens{
@@ -246,6 +247,10 @@ header {
     margin-bottom: 10px;
 }
 
+.contourblanc:hover{
+cursor: pointer;
+transform: scale(1.1)
+}
 .fondpopulaires {
     flex: 0.8;
     height: 800px;
@@ -405,6 +410,11 @@ border-radius: 20px ;
 padding: 1% 0 1% 1%;
 }
 
+.contourblancpop:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+    }
+
 .marge {
     margin-top: -70px;
 }
@@ -457,8 +467,8 @@ padding: 1% 0 1% 1%;
 .activites {
     margin-top: 50px;
     margin-bottom: 80px;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding-left: 80px;
+    margin-right: 80px;
 }
 
 .blocactivites {
@@ -468,6 +478,8 @@ padding: 1% 0 1% 1%;
     align-items: flex-start;
    
 }
+
+
 
 .blocactivites2356 {
     width: 23%;
@@ -489,10 +501,20 @@ padding: 1% 0 1% 1%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
+.blocA:hover {
+    cursor: pointer;
+    transform: scale(1.03)
+}
+
 .blocA2356{
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.blocA2356:hover {
+    cursor: pointer;
+    transform: scale(1.03)
 }
 
 .titrehauteu{
@@ -613,6 +635,10 @@ padding: 1% 0 1% 1%;
         width: 100%;
         flex-direction: column;
     }
+
+    .logoreversia {
+        margin-right: 200px;
+    }
     
     
                                    /* populaires*/
@@ -660,15 +686,18 @@ padding: 1% 0 1% 1%;
         display: flex;
         height: 1500px;
         flex-direction: column;
+
+    }
+
+    .fondgris{
+        display: none;
+        
     }
 
     .titreH {
         margin-left: 100px;
     }
 
-   
-
-       
 
     .flexAround2 {
         display: flex;
@@ -835,7 +864,7 @@ padding: 1% 0 1% 1%;
         display: flex;
         height: 800px;
         margin-left: 20px;
-        border-radius: 30px;
+        border-radius: 0px;
         margin-bottom: 25px;
     }
 
@@ -861,4 +890,29 @@ padding: 1% 0 1% 1%;
     border-top: none;
    }    
     
+   .stylesinscrire {
+       position: relative;
+       bottom: 70px;
+       left: 50px;
+   }
+
+   .stylehebergement  {
+       position: relative;
+       left: 70px;
+   }
+
+   .styleactivites {
+    position: relative;
+    left: 70px;
+   }
+
+   .textetrouvez {
+    position: relative;
+    left: 30px;
+   }
+
+   .texteEnpleincentre{
+       position: relative;
+       left: 30px;
+   }
 }
