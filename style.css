@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Raleway';
+    width: 100%;
 }
 header {
     margin-left: 20px;
@@ -604,11 +605,17 @@ padding: 1% 0 1% 1%;
 
  @media screen and (min-width:0px) and (max-width:1000px)
 {
-    header {
+    .bordure {
         display: block;
-        width: 100%;
+        width: 375px;
         flex-direction: column;
     }
+
+    .blocpop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
                                   /* filtres*/ 
                             
     .filtres{
@@ -617,6 +624,7 @@ padding: 1% 0 1% 1%;
         align-items: flex-start;
         margin-top: 20px;
         margin-bottom: 50px;
+        width: 80%;
     } 
     .responsivesliens {
         display: flex;
@@ -630,23 +638,33 @@ padding: 1% 0 1% 1%;
     
 @media screen and (min-width:0px) and (max-width:1084px)
 {
-    header {
-        display: block;
-        width: 100%;
-        flex-direction: column;
-    }
+
 
     .logoreversia {
-        margin-right: 200px;
+        position: relative;
+        right: 130px ;
+        top: 5px;
     }
     
+    .bordurebutrecherche {
+        width: 100%;
+    }
+
+    .textetrouvez {
+        width: 100%;
+        margin: none;
+    }
     
                                    /* populaires*/
     
     .textpop {
-        margin-left: 90px;
         margin-bottom: 90px;
         margin-top: 30px;
+    }
+
+    .blocpop {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .iconepop {
@@ -656,48 +674,36 @@ padding: 1% 0 1% 1%;
     .responsive1 {
         display: flex;
         align-items: center;
-        width: 400px;
-        margin-left: 90px;
+        width: 90%;
+        
     }
 
     .responsive2 {
         display: flex;
         align-items: center;
-        width: 400px;
-        margin-left: 90px;
+        width: 90%;
+        
     }
 
     .responsive3 {
         display: flex;
         align-items: center;
-        width: 400px;
-        margin-left: 90px;
+        width: 90%;
         margin-bottom: 30px;
     }
-    .fondpopulaires {
-       
-        height: 1000px;
-        width: 500px;
-        border-radius: 0 0 0 0;
-      
-    }
+
                                 /* carte-hebergement*/
     .fondhebergements {
         display: flex;
-        height: 1500px;
         flex-direction: column;
+        width: 375px;
 
     }
 
     .fondgris{
-        display: none;
+        background-color: white;
         
     }
-
-    .titreH {
-        margin-left: 100px;
-    }
-
 
     .flexAround2 {
         display: flex;
@@ -707,7 +713,6 @@ padding: 1% 0 1% 1%;
     .Hbloc {
         display: flex;
         align-items: center;
-        margin-top: 50px; 
         border-radius: 0 0 0 0;    
     }
 
@@ -716,24 +721,26 @@ padding: 1% 0 1% 1%;
         flex-direction: column;
         margin-top: -30px; 
         border-radius: 0 0 0 0;
+        width: 100%;
         
     }
 
     .c1 {
         display: flex;
         flex-direction: column;
+        width: 375px;
     }
                             /* carte-hebergement-1*/
     .carteH1 {
         display: flex;
-        width: 300px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
+       
     }
 
     .imgH1 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1;
         }
 
@@ -741,20 +748,19 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
                             /* carte-hebergement-2*/
     .carteH2 {
         display: flex;
-        width: 400px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
     }
 
     .imgH2 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1;
         }
 
@@ -762,14 +768,13 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
                             /* carte-hebergement-3*/
     .carteH3 {
         display: flex;
-        width: 400px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
     }
 
@@ -777,20 +782,19 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
 
     .imgH3 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1;
         }
                             /* carte-hebergement-4*/
     .carteH4 {
         display: flex;
-        width: 400px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
     }
 
@@ -798,21 +802,20 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
 
     .imgH4 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1;
         }
 
                             /* carte-hebergement-5*/
     .carteH5 {
         display: flex;
-        width: 400px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
     }
 
@@ -820,21 +823,20 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
 
     .imgH5 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1;
         }
 
                         /* carte-hebergement-6*/
         .carteH6 {
         display: flex;
-        width: 400px;
-        margin-left: 100px;
+        width: 90%;
         margin-bottom: 30px;
     }
 
@@ -842,32 +844,36 @@ padding: 1% 0 1% 1%;
         position:relative;
         top: 150px;
         left: 10px;
-        width:400px;
+        width:80%;
         z-index:2
     }
 
     .imgH6 {
         position: absolute;
-        width: 400px;
+        width: 90%;
         z-index:1; 
     }
 
     .contourblanc {
-    width: 400px;
+    width: 90%;
     height: 250px;
     background-color: white;
     padding: 0.8%;
-    border-radius: 20px 
+    border-radius: 20px ;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
     }
     
     .fondpopulaires {
         display: flex;
         height: 800px;
-        margin-left: 20px;
+        width: 100%;
         border-radius: 0px;
         margin-bottom: 25px;
     }
 
+    .txtafficherplus {
+        display: none;
+    }
    
 
                                  /*boutonslien (Hébergement,Activités,S'inscrire)*/
@@ -878,41 +884,48 @@ padding: 1% 0 1% 1%;
     .responsive5 {
         display: flex;
         align-items: center;
+        width: 100%;
         
      }
      
     .bordurebleu {
-        border-bottom: 1px solid #0065FC;
+        border-bottom: 2px solid #f2f2f2;
         border-top: none;
+        width: 190px;
    }
    .bordurbleu2 {
-    border-bottom: 1px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
     border-top: none;
+    width: 190px;
+        
    }    
     
    .stylesinscrire {
        position: relative;
        bottom: 70px;
-       left: 50px;
+       right: 70px;
+       width: 100%;
+        
    }
 
    .stylehebergement  {
        position: relative;
-       left: 70px;
+       left: 30px;
+       
+        
    }
 
    .styleactivites {
     position: relative;
-    left: 70px;
-   }
-
-   .textetrouvez {
-    position: relative;
     left: 30px;
+    
    }
 
    .texteEnpleincentre{
-       position: relative;
-       left: 30px;
+       width: 100%;
+   }
+
+   header {
+       margin-left: 0;
    }
 }
