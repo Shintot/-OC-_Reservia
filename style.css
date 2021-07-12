@@ -502,6 +502,7 @@ padding: 1% 0 1% 1%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
+
 .blocA:hover {
     cursor: pointer;
     transform: scale(1.03)
@@ -612,8 +613,9 @@ padding: 1% 0 1% 1%;
     }
 
     .blocpop {
-        padding-left: 0;
-        padding-right: 0;
+        margin-left: 0;
+        position: relative;
+        right: 8px;
     }
     
                                   /* filtres*/ 
@@ -651,8 +653,26 @@ padding: 1% 0 1% 1%;
     }
 
     .textetrouvez {
-        width: 100%;
-        margin: none;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 10px;
+        text-align:justify;
+    }
+
+    .btn-text {
+        display: none;
+    }
+
+    .buttonrecherche {
+        height: 50px;
+        width: 15%;
+        position: relative;
+        right: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px 10px 10px 10px;
+        font-weight: bold;
     }
     
                                    /* populaires*/
@@ -675,22 +695,39 @@ padding: 1% 0 1% 1%;
         display: flex;
         align-items: center;
         width: 90%;
+        position: relative;
+        left: 10px;
         
+    }
+
+    .imgP1 {
+      width: 180px;
     }
 
     .responsive2 {
         display: flex;
         align-items: center;
         width: 90%;
+        position: relative;
+        left: 10px;
         
     }
+    .imgP2 {
+        width: 180px;
+      }
 
     .responsive3 {
         display: flex;
         align-items: center;
         width: 90%;
-        margin-bottom: 30px;
+        position: relative;
+        left: 10px;
+        margin-bottom: 15px;
     }
+
+    .imgP3 {
+        width: 180px;
+      }
 
                                 /* carte-hebergement*/
     .fondhebergements {
@@ -874,6 +911,10 @@ padding: 1% 0 1% 1%;
     .txtafficherplus {
         display: none;
     }
+
+    .reglageespacetitre {
+        padding-top: 10px;
+    }
    
 
                                  /*boutonslien (Hébergement,Activités,S'inscrire)*/
@@ -923,9 +964,88 @@ padding: 1% 0 1% 1%;
 
    .texteEnpleincentre{
        width: 100%;
+       margin-left: 10px;
    }
 
    header {
        margin-left: 0;
    }
+
+                                 /*boutonslien (Hébergement,Activités,S'inscrire)*/
+
+  .blocactivites {
+    display: flex;
+    flex-direction: column;
+  }    
+  
+  .imgact1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .blocA {
+    width: 90%;
+    height: 250px;
+    background-color: white;
+    padding: 0.8%;
+    border-radius: 20px ;
+    margin-bottom: 25px;
+  }
+
+  .reglageespace {
+      margin-top: 30px;
+  }
+
+  .imgact2 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .blocactivites2356 {
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    padding: 0.8%;
+    border-radius: 20px ;
+   
+  }
+
+  .reglageresponsive{
+      margin-top: 280px;
+  }
+
+  .imgact4{
+    background-image: url("https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/kilyan-sockalingum-NR8-cBCN3aI-unsplash_jas21m.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact5{
+    background-image: url("https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/florian-wehde-xW9e8gdotxI-unsplash_ehyzbh.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgact6{
+    background-image: url("https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/lena-paulin-wH2-EJoDcV0-unsplash_mgz78i.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+
 }
