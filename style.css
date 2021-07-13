@@ -7,6 +7,12 @@ body {
     font-family: 'Raleway';
     width: 100%;
 }
+
+
+body {
+   overflow-x: hidden; 
+}
+
 header {
     margin-left: 20px;
 }
@@ -28,6 +34,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 94%;
+    margin-left: 40px;
 }
 
 .flexBetween {
@@ -115,6 +123,8 @@ header {
 
 .logoreversia {
     width: 115px;
+    position: relative;
+    left: 18px;
     
     
 }
@@ -125,7 +135,19 @@ header {
 
 .textetrouvez {
     font-size: 13px;
+    position: relative;
+    left: 20px;
     
+}
+
+.texteEnpleincentre {
+    position: relative;
+    left: 20px;
+}
+
+.boutton {
+    position: relative;
+    left: 20px;
 }
 
 .bordurebutrecherche {
@@ -152,6 +174,10 @@ header {
     background-color: #0065FC;
 } 
 
+.loupe {
+    display: none;
+}
+
 .buttonrecherche {
     height: 50px;
     width: 120px;
@@ -177,6 +203,8 @@ header {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    position: relative;
+    left: 20px;
 }
 
 .txtfiltres {
@@ -221,6 +249,8 @@ header {
 .info {
     display: flex;
     align-items: center;
+    position: relative;
+    left: 20px;
 }
 
 .couleurinfo {
@@ -237,7 +267,7 @@ header {
 
 .txtdecal {
     margin-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
                                     /* Hebergements */
 .fondhebergements {
@@ -465,18 +495,13 @@ padding: 1% 0 1% 1%;
 
                                                                                  /* Activites */
 
-.activites {
-    margin-top: 50px;
-    margin-bottom: 80px;
-    padding-left: 80px;
-    margin-right: 80px;
-}
+
 
 .blocactivites {
-    width: 100%;
+    width: 95%;
     height: 600px;
-    display: flex;
-    align-items: flex-start;
+    position: relative;
+    left: 29px;
    
 }
 
@@ -492,9 +517,11 @@ padding: 1% 0 1% 1%;
 }
 
 .reglageespacetitre{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 6px;
     margin-bottom: 30px;
+    position: relative;
+    left: 29px;
 }
 .blocA {
     width: 23%;
@@ -591,6 +618,11 @@ padding: 1% 0 1% 1%;
     width: 100%;
 }
 
+.fondgris3 {
+    background-color: #F2F2F2 ;
+   
+}
+
 .bloctaille{
     height: 150px;
 }
@@ -627,6 +659,7 @@ padding: 1% 0 1% 1%;
         margin-top: 20px;
         margin-bottom: 50px;
         width: 80%;
+        margin-left: -10px;
     } 
     .responsivesliens {
         display: flex;
@@ -644,8 +677,9 @@ padding: 1% 0 1% 1%;
 
     .logoreversia {
         position: relative;
-        right: 130px ;
+        left: -120px;
         top: 5px;
+        
     }
     
     .bordurebutrecherche {
@@ -655,12 +689,36 @@ padding: 1% 0 1% 1%;
     .textetrouvez {
         width: 90%;
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: -10px;
         text-align:justify;
+        
+    }
+
+    .boutton {
+       margin-left: -25px;
+        width: 375px;
     }
 
     .btn-text {
         display: none;
+    }
+
+    .txtdecal {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .texteEnpleincentre{
+        width: 80%;
+        margin-left: -10px;
+    }
+
+    .info {
+        margin-left: -10px;
+    }
+
+    .loupe {
+        display: flex;
     }
 
     .buttonrecherche {
@@ -680,11 +738,22 @@ padding: 1% 0 1% 1%;
     .textpop {
         margin-bottom: 90px;
         margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .fondpopulaires {
+        display: flex;
+        height: 800px;
+        width: 375px;
+        border-radius: 0px;
+        margin-bottom: 25px;
+        margin-left: -8px;
     }
 
     .blocpop {
         padding-left: 0;
         padding-right: 0;
+        margin-right: 50px;
     }
 
     .iconepop {
@@ -696,7 +765,7 @@ padding: 1% 0 1% 1%;
         align-items: center;
         width: 90%;
         position: relative;
-        left: 10px;
+        left: 15px;
         
     }
 
@@ -704,12 +773,16 @@ padding: 1% 0 1% 1%;
       width: 180px;
     }
 
+    .textimgP {
+        line-height: 1.2em;
+      }
+
     .responsive2 {
         display: flex;
         align-items: center;
         width: 90%;
         position: relative;
-        left: 10px;
+        left: 15px;
         
     }
     .imgP2 {
@@ -721,7 +794,7 @@ padding: 1% 0 1% 1%;
         align-items: center;
         width: 90%;
         position: relative;
-        left: 10px;
+        left: 15px;
         margin-bottom: 15px;
     }
 
@@ -750,7 +823,9 @@ padding: 1% 0 1% 1%;
     .Hbloc {
         display: flex;
         align-items: center;
-        border-radius: 0 0 0 0;    
+        border-radius: 0 0 0 0;   
+        position: relative;
+        right: 30px; 
     }
 
     .Hbloc2 {
@@ -758,15 +833,23 @@ padding: 1% 0 1% 1%;
         flex-direction: column;
         margin-top: -30px; 
         border-radius: 0 0 0 0;
-        width: 100%;
+        width: 375px;
         
+    }
+
+    .titreH {
+        position: relative;
+        right: 40px;
     }
 
     .c1 {
         display: flex;
         flex-direction: column;
         width: 375px;
+        position: relative;
+        right: 0px;
     }
+    
                             /* carte-hebergement-1*/
     .carteH1 {
         display: flex;
@@ -779,6 +862,7 @@ padding: 1% 0 1% 1%;
         position: absolute;
         width: 90%;
         z-index:1;
+        
         }
 
     .textajuste1 {
@@ -788,6 +872,8 @@ padding: 1% 0 1% 1%;
         width:80%;
         z-index:2
     }
+
+    
                             /* carte-hebergement-2*/
     .carteH2 {
         display: flex;
@@ -833,6 +919,7 @@ padding: 1% 0 1% 1%;
         display: flex;
         width: 90%;
         margin-bottom: 30px;
+        
     }
 
     .textajuste4 {
@@ -845,14 +932,14 @@ padding: 1% 0 1% 1%;
 
     .imgH4 {
         position: absolute;
-        width: 90%;
+        width: 71%;
         z-index:1;
         }
 
                             /* carte-hebergement-5*/
     .carteH5 {
         display: flex;
-        width: 90%;
+        width: 71%;
         margin-bottom: 30px;
     }
 
@@ -866,7 +953,7 @@ padding: 1% 0 1% 1%;
 
     .imgH5 {
         position: absolute;
-        width: 90%;
+        width: 71%;
         z-index:1;
         }
 
@@ -887,7 +974,7 @@ padding: 1% 0 1% 1%;
 
     .imgH6 {
         position: absolute;
-        width: 90%;
+        width: 71%;
         z-index:1; 
     }
 
@@ -900,13 +987,7 @@ padding: 1% 0 1% 1%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     }
     
-    .fondpopulaires {
-        display: flex;
-        height: 800px;
-        width: 100%;
-        border-radius: 0px;
-        margin-bottom: 25px;
-    }
+    
 
     .txtafficherplus {
         display: none;
@@ -962,10 +1043,7 @@ padding: 1% 0 1% 1%;
     
    }
 
-   .texteEnpleincentre{
-       width: 100%;
-       margin-left: 10px;
-   }
+  
 
    header {
        margin-left: 0;
@@ -976,6 +1054,8 @@ padding: 1% 0 1% 1%;
   .blocactivites {
     display: flex;
     flex-direction: column;
+    position: relative;
+    right: 60px;
   }    
   
   .imgact1 {
@@ -987,12 +1067,14 @@ padding: 1% 0 1% 1%;
   }
 
   .blocA {
-    width: 90%;
+    width: 95%;
     height: 250px;
     background-color: white;
     padding: 0.8%;
     border-radius: 20px ;
     margin-bottom: 25px;
+    position: relative;
+    right: 30px;
   }
 
   .reglageespace {
@@ -1008,11 +1090,13 @@ padding: 1% 0 1% 1%;
   }
 
   .blocactivites2356 {
-    width: 90%;
+    width: 95%;
     height: 200px;
     background-color: white;
     padding: 0.8%;
     border-radius: 20px ;
+    position: relative;
+    right: 30px;
    
   }
 
@@ -1047,5 +1131,32 @@ padding: 1% 0 1% 1%;
     border-radius: 15px 15px 0 0 ;
 }
 
+.footer{
+    height: 500px;
+    position: relative;
+    top: 790px;
+    right: 10px;
+    width: 100%;
+    display: flex;
+        flex-direction: column;
+}
+
+.blocmarge1 {
+    position: relative;
+    right: 40px;
+    top: 10px;
+}
+
+.blocmarge2 {
+    position: relative;
+    right: 57px;
+    bottom: 30px;
+}
+
+.blocmarge3{
+    position: relative;
+    right: 57px;
+    top: 10px;
+}
 
 }

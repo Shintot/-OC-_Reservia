@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <script src="https://kit.fontawesome.com/24f7fe336c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Reservia</title>
@@ -23,11 +23,11 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         </div>
             <p class="texteEnpleincentre">En plein centre ville ou en pleine nature</p>
-            <form method="POST" action="traitement.php">
+            <form method="POST" action="traitement.php" class="boutton">
                 <p class="bordurebutrecherche flexcentre">
                     <label class="tailleicone flexcentre" for="ville,pays"><i class="fas fa-map-marker-alt"></i></label>
                     <input type="text" name="ville,pays" value="Marseille,France" class="paddingbutton butrecherche flexcentre">
-                    <button type="submit" value="Rechercher"  class="fondbleu flexcentre buttonrecherche" ><i class="fas fa-search"></i><span class="btn-text">rechercher</span>
+                    <button type="submit" value="Rechercher"  class="fondbleu flexcentre buttonrecherche" ><i class="fas fa-search loupe"></i><span class="btn-text">Rechercher</span>
                     </button>
                 </p>
             </form>
@@ -181,13 +181,13 @@
         </article>
     </section>
     <footer>
-        <div class=" footer fondgris flexBetween">
+        <div class=" footer fondgris3 flexBetween">
             <div class="bloctaille blocmarge1"><h3>A propos</h3>
             <p>Fonctionnement du site</p>
             <p>conditions générales de ventes</p>
             <p>Données et confidentialité</p>
             </div>
-            <div class="bloctaille"><h3>Nos Hébergements</h3>
+            <div class="bloctaille blocmarge3"><h3>Nos Hébergements</h3>
                 <p>Charte qualité</p>
                 <p>Soumettre votre hôtel</p>
             </div>
