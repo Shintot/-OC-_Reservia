@@ -753,7 +753,7 @@ bottom: 20px;
     width: 800px;
 }
 }
- @media screen and (min-width:0px) and (max-width:1000px)
+ @media screen and (min-width:600px) and (max-width:1084px)
 {
     .bordure {
         display: block;
@@ -788,7 +788,7 @@ bottom: 20px;
     }
 }                                                      
     
-@media screen and (min-width:0px) and (max-width:1020px)
+@media screen and (min-width:0px) and (max-width:600px)
 {
 
 
