@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .couleur {
@@ -86,6 +86,15 @@ header {
 
 .bordurebleu2 {
     border-top: 1px solid transparent;
+}
+
+.bordurebleu3 {
+    border-top: 1px solid transparent;
+}
+
+.bordurebleu3:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;  
 }
 
 .bordurebleu2:hover {
@@ -267,7 +276,7 @@ header {
 
 .txtdecal {
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
                                     /* Hebergements */
 .fondhebergements {
@@ -417,6 +426,11 @@ transform: scale(1.1)
     
 }
 
+.fexbetweenresponsive {
+    position: relative;
+    bottom:30px ;
+}
+
 .iconepop {
     padding-right: 30px;
 }
@@ -462,7 +476,7 @@ padding: 1% 0 1% 1%;
     margin-bottom: -10px;
 }
 .espacePop1-2 {
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     
 }
 
@@ -488,7 +502,7 @@ padding: 1% 0 1% 1%;
 }
 
 .imgP3 {
-    background-image: url("https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/febrian-zakaria-M6S1WvfW68A-unsplash_ahsj82.jpg");
+    background-image: url("https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/febrian-zakaria-sjvU0THccQA-unsplash_skomar.jpg");
     background-size: cover;
     background-position: center;
     width: 32%;
@@ -635,12 +649,33 @@ padding: 1% 0 1% 1%;
 }
 
 .blocmarge2{
-    margin-right: 15%;
+    margin-right: 25%;
 }
                                                                                  /* responsive*/
-@media screen and (min-width:1021px) and (max-width:1100px) {
+@media screen and (min-width:800px) and (max-width:1100px)         /* ipadPro*/ 
+{
 .textajuste1 {
     line-height: 20px;
+    margin-left: 5px;
+}
+
+.flexBetween .reglageresponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.filtres {
+    width: 1000px;
+}
+
+.txtfiltres {
+    margin-right: 10px;
+}
+
+header {
+    margin-left: 10px;
 }
 
 .textajuste1 p {
@@ -651,6 +686,7 @@ padding: 1% 0 1% 1%;
 .flexAround2 {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: 10px ;
 }
 
 .flexAroundcolone {
@@ -658,18 +694,25 @@ padding: 1% 0 1% 1%;
     
 }
 
+.textpop {
+    margin-top: 15px;
+}
 
+.textpop h2 {
+    margin-right: 30px;
+}
 
 .fondpopulaires {
-width: 800px;
-position: relative;
-right: 15px;
+width: 850px;
+
 }
 
 .fexbetweenresponsive {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    right: 10px;
 }
 
 .flexAroundcolone {
@@ -681,22 +724,26 @@ right: 15px;
 .responsive1 {
 display: flex;
 flex-direction: column;
+width: 2px;
 position: relative;
 right: 60px;
-top: 15px;
+top: 50px;
+
 
 }
 
 .imgP1 {
-width: 205px;
+width: 230px;
 border-radius: 15px 15px 0 0;
 position: relative;
+left: -4px;
+bottom: 5px;
 
 }
 
 .contourblancpop {
     height: 200px;
-    width: 210px;
+    width: 230px;
 }
 
 .textimgP h3 {
@@ -711,6 +758,10 @@ position: relative;
     top: 20px; 
 }
 
+.Hresponsive {
+    position: relative;
+    bottom: 300px;
+}
 .etoileplacementpop {
     position: relative;
     top: -15px;
@@ -720,14 +771,17 @@ position: relative;
     display: flex;
 flex-direction: column;
 position: relative;
-bottom: 15px;
+bottom: -18px;
+width: 230px;
 }
 
 .imgP2 {
-    width: 205px;
+    width: 230px;
+    height: 110px;
     border-radius: 15px 15px 0 0;
     position: relative;
     left: -4px;
+    bottom: 4px;
     }
 
 .responsive3 {
@@ -735,14 +789,16 @@ bottom: 15px;
 flex-direction: column;
 position: relative;
 left: 60px;
-bottom: 20px;
+bottom: 15px;
+width: 230px;
 }
 
 .imgP3 {
-    width: 205px;
+    width: 230px;
     border-radius: 15px 15px 0 0;
     position: relative;
     left: -4px;
+    bottom: 4px;
     }
 
 .contourajuste {
@@ -750,10 +806,128 @@ bottom: 20px;
 }
 
 .fondhebergements {
-    width: 800px;
+    width: 850px;
+    position: relative;
+left: 20px;
+}
+
+.Activites {
+    position: relative;
+    right: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    width: 1024px;
+    margin-right: -15px;
+    margin-left: -9px;
+    margin-bottom: -5px;
 }
 }
- @media screen and (min-width:600px) and (max-width:1084px)
+@media screen and (min-width: 600px) and (max-width:800px)         /* ipad*/ 
+{
+    .textajuste1 {
+        line-height: 20px;
+        margin-left: 5px;
+    }
+
+    header{
+        margin-left: 0px;
+    }
+
+    .filtres{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+       
+    } 
+
+   
+    .reglageresponsive {
+        display: flex;
+    justify-content: space-around;
+   
+    }
+
+    .blocA2 {
+       height: 250px;
+    }
+
+    .blocA {
+        height: 480px;
+    }
+
+    .blocA2356 {
+        height: 220px;
+    }
+
+    .blocactivites2356 {
+        position: relative;
+        top: 50px;
+    }
+
+    .reglageespace {
+        margin-top: 50px;
+    }
+
+    
+
+    .sizeLiens {
+        margin-right: 50px;
+    }
+    
+    
+
+    .fondhebergements {
+        width: 625px;
+        margin-right: 50px;
+    }
+
+    .fondpopulaires {
+        width: 620px;
+        margin-right: 70px;
+    }
+
+    .textpop{
+        margin-top: 10px;
+    }
+
+    .fexbetweenresponsive {
+        margin-top: 90px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .c1 {
+        width: 100%;
+    }
+    
+    .textajuste1 p {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .contourblanc {
+        height: 270px;
+    }
+
+    .etoilereglage {
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .flexAround2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .flexAroundcolone {
+        display: flex;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:600px)         /* iphone6/7/8*/ 
 {
     .bordure {
         display: block;
@@ -771,11 +945,11 @@ bottom: 20px;
                             
     .filtres{
         display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
         align-items: flex-start;
         margin-top: 20px;
         margin-bottom: 50px;
-        width: 80%;
+        
         margin-left: -10px;
     } 
     .responsivesliens {
@@ -783,12 +957,35 @@ bottom: 20px;
         flex-flow: column wrap;
         align-items: flex-start;
     }
+
+    .responsivefiltre2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ajuste2 {
+        position: relative;
+        right: 40px;
+    }
+
+    .ajuste3 {
+        position: relative;
+        right: 12px;
+    }
+
+    .ajuste {
+        width: 345px;
+    }
+
+    .bordurefiltres {
+        margin-right: 5px;
+    }
     .fondgris {
         background-color: none;
     }
 }                                                      
     
-@media screen and (min-width:0px) and (max-width:600px)
+@media screen and (min-width:200px) and (max-width:600px)
 {
 
 
@@ -853,8 +1050,8 @@ bottom: 20px;
                                    /* populaires*/
     
     .textpop {
-        margin-bottom: 90px;
-        margin-top: 30px;
+        margin-bottom: 120px;
+        margin-top: 10px;
         margin-left: 10px;
     }
 
