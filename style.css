@@ -836,13 +836,49 @@ left: 20px;
         margin-left: 0px;
     }
 
+    .textetrouvez {
+        width: 700px;
+    }
+
     .filtres{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-       
-       
-    } 
+        margin-top: 0px;
+        
+    }
+
+    .ajuste {
+        align-items: flex-start;
+        position: relative;
+        left: 90px;
+    }
+
+    .ajuste2 {
+        position: relative;
+        bottom: 75px;
+        left: 400px;
+    }
+
+    .ajuste3 {
+        position: relative;
+        right: 220px;
+    }
+
+    .responsivefiltre2 {
+        position: relative;
+        left: 90px;
+    }
+
+    .txtfiltres {
+        position: relative;
+        top: 60px;
+    }
+
+    .flexAround {
+        display: flex;
+        align-items: flex-start;
+    }
 
    
     .reglageresponsive {
@@ -872,7 +908,13 @@ left: 20px;
         margin-top: 50px;
     }
 
-    
+    .boutton {
+        margin-top: 30px;
+    }
+
+    .espacereglage {
+        line-height: 15px;
+    }
 
     .sizeLiens {
         margin-right: 50px;
@@ -890,8 +932,26 @@ left: 20px;
         margin-right: 70px;
     }
 
+    .responsive1 {
+        margin-bottom: 20px;
+    }
+
+    .responsive2 {
+        margin-bottom: 20px;
+    }
+
     .textpop{
         margin-top: 10px;
+    }
+
+    .iconepop {
+        position: relative;
+        right: 100px;
+    }
+
+    .responsiveipad{
+        position: relative;
+        left: 150px;
     }
 
     .fexbetweenresponsive {
@@ -925,6 +985,29 @@ left: 20px;
     
     .flexAroundcolone {
         display: flex;
+    }
+
+    .blocactivites {
+       
+        width: 700px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        position: relative;
+        width: 768px;
+        right: 6px;
+        bottom: -20px;
+    }
+
+    .blocmarge3 {
+        position: relative;
+        left: 40px;
+    }
+
+    .blocmarge2 {
+        position: relative;
+        left: 100px;
     }
 }
 @media screen and (min-width: 0px) and (max-width:600px)         /* iphone6/7/8*/ 
