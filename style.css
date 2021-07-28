@@ -426,6 +426,10 @@ transform: scale(1.1)
     
 }
 
+.Hresponsive {
+    line-height: 20px;
+}
+
 .fexbetweenresponsive {
     position: relative;
     bottom:30px ;
@@ -1017,7 +1021,7 @@ left: 20px;
     .fondhebergements {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 620px;
 
     }
 
@@ -1041,7 +1045,7 @@ left: 20px;
         flex-direction: column;
         margin-top: -30px; 
         border-radius: 30px;
-        width: 600px;
+        width: 620px;
         
     }
 
@@ -1333,7 +1337,7 @@ left: 20px;
 
     .reglageespacetitre {
         margin-bottom: 50px;
-        margin-left: 15px;
+        margin-left: 40px;
     }
 
 }
