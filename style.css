@@ -17,6 +17,10 @@ header {
     margin-left: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .couleur {
     color: #0065FC;
 }
@@ -107,8 +111,12 @@ header {
     cursor: pointer;  
 }
 
-.bordurebleu:hover > a {
+.stylehebergement:hover  {
     color: #0065FC;  
+}
+
+.styleactivites:hover {
+    color: #0065FC;
 }
 
 .styleactivites {
@@ -689,6 +697,11 @@ header {
     bottom: 10px;
 }
 
+.sizeLiens {
+    position: relative;
+    right: 20px;
+}
+
 .flexAround2 {
     display: flex;
     flex-direction: column-reverse;
@@ -702,6 +715,10 @@ header {
 
 .textpop {
     margin-top: 15px;
+}
+
+.responsiveipad {
+ 
 }
 
 .textpop h2 {
@@ -758,7 +775,7 @@ bottom: 13px;
 .textimgP h3 {
     position: relative;
     top: 20px;
-    line-height: 15px;
+    line-height: 16px;
     
 }
 
@@ -773,7 +790,7 @@ bottom: 13px;
 }
 .etoileplacementpop {
     position: relative;
-    top: -15px;
+    top: px;
 }
 
 .responsive2 {
@@ -941,6 +958,13 @@ left: 20px;
         margin-right: 70px;
         margin-bottom: 70px;
     }
+
+    .contourblancpop {
+        width: 560px;
+        position: relative;
+        right: 20px;
+    }
+
 
     .responsive1 {
         margin-bottom: 20px;
@@ -1354,6 +1378,12 @@ left: 20px;
         position: relative;
         right: 8px;
     }
+
+    .bordurebleu2 {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        width: 190px;
+    }
     
                                   /* filtres*/ 
                             
@@ -1375,6 +1405,7 @@ left: 20px;
     .responsivefiltre2 {
         display: flex;
         flex-direction: column;
+        margin-left: 10px;
     }
 
     .ajuste2 {
@@ -1389,6 +1420,8 @@ left: 20px;
 
     .ajuste {
         width: 345px;
+        position: relative;
+        right: 5px;
     }
 
     .bordurefiltres {
@@ -1396,6 +1429,11 @@ left: 20px;
     }
     .fondgris {
         background-color: none;
+    }
+
+    .filtretexte {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }                                                      
     
@@ -1878,7 +1916,7 @@ left: 20px;
 
 .blocmarge2 {
     position: relative;
-    right: 57px;
+    right: 40px;
     bottom: 30px;
 }
 
