@@ -983,9 +983,9 @@ left: 20px;
         right: 100px;
     }
 
-    .responsiveipad{
+    .responsiveipad2{
         position: relative;
-        left: 150px;
+       
     }
 
     .fexbetweenresponsive {
@@ -1008,7 +1008,17 @@ left: 20px;
         bottom: 0px;
     }
 
-    
+    .imgP1 {
+        width: 35% ;
+    }
+
+    .imgP2 {
+        width: 35% ;
+    }
+
+    .imgP3 {
+        width: 35% ;
+    }
     
     .flexAround2 {
         display: flex;
@@ -1094,7 +1104,7 @@ left: 20px;
 
     .imgH1 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1;
@@ -1124,7 +1134,7 @@ left: 20px;
 
     .imgH2 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1;
@@ -1159,7 +1169,7 @@ left: 20px;
 
     .imgH3 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1;
@@ -1187,7 +1197,7 @@ left: 20px;
 
     .imgH4 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1;
@@ -1220,7 +1230,7 @@ left: 20px;
 
     .imgH5 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1;
@@ -1243,7 +1253,7 @@ left: 20px;
 
     .imgH6 {
         position: absolute;
-        width: 200px;
+        width: 210px;
         height: 170px;
         border-radius: 15px 0px 0 15px;
         z-index:1; 
