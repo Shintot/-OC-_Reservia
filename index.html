@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  user-scalable=no">
     <script src="https://kit.fontawesome.com/24f7fe336c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Reservia</title>
@@ -25,7 +25,7 @@
             <p class="texteEnpleincentre">En plein centre ville ou en pleine nature</p>
             <form method="POST" action="traitement.php" class="boutton">
                 <p class="bordurebutrecherche flexcentre">
-                    <label class="tailleicone flexcentre" for="ville,pays"><i class="fas fa-map-marker-alt"></i></label>
+                    <label class="tailleicone flexcentre"><i class="fas fa-map-marker-alt"></i></label>
                     <input type="text" name="ville,pays" value="Marseille,France" class="paddingbutton butrecherche flexcentre">
                     <button type="submit" value="Rechercher"  class="fondbleu flexcentre buttonrecherche" ><i class="fas fa-search loupe"></i><span class="btn-text">Rechercher</span>
                     </button>
@@ -34,84 +34,120 @@
             <div class="filtres">
                 <h3 class="txtfiltres">Filtres</h3>
                 <div class="flexAround ajuste">
-                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-money-bill-wave fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Economique</h3></div>
-                <div class="flexBetween bordurefiltres" href="filtres.php"><i class="fas fa-child fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Familial</h3></div>
+                <div class="flexBetween bordurefiltres"><i class="fas fa-money-bill-wave fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Economique</h3></div>
+                <div class="flexBetween bordurefiltres"><i class="fas fa-child fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Familial</h3></div>
             </div>
             <div class="responsivefiltre2 flexAround">
-                <div class="flexBetween bordurefiltres ajuste2" href="filtres.php"><i class="fas fa-heart fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Romantique</h3></div>
-                <div class="flexBetween bordurefiltres responsivefiltre ajuste3" href="filtres.php"><i class="fas fa-dog fa-lg bordureicone flexcentre "></i><h3 class="filtretexte flexcentre">Animaux autorisés</h3></div>
+                <div class="flexBetween bordurefiltres ajuste2"><i class="fas fa-heart fa-lg bordureicone flexcentre"></i><h3 class="filtretexte flexcentre">Romantique</h3></div>
+                <div class="flexBetween bordurefiltres responsivefiltre ajuste3"><i class="fas fa-dog fa-lg bordureicone flexcentre "></i><h3 class="filtretexte flexcentre">Animaux autorisés</h3></div>
             </div>
             </div>
         <div class="info"><i class="fas fa-info couleurinfo rond flexcentre"></i><p class="txtdecal">Plus de 500 logements sont disponible dans cette ville</p></div>
     </header>
     <section>
-        <article id="Hebergement"class="responsive7">
-            <aside class="flexAround2 ">
+            <aside class="flexAround2 responsive7">
                 <div class="fondhebergements fondgris Hbloc"><br>
                     <h2 class="titreH">Hébergement à Marseille</h2><br>
                     <div class="c1 flexBetween">
-                        <div class="contourblanc carteH1">
-                            <div class="imgH1"></div>
-                            <div class="textajuste1"><h3>Auberge de la cannebiére</h3>
-                            <p>Nuit à partir de 25€</p>
-                            <div class="etoilereglage"><i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleurGris"></i></div></div>
+                        <div class="card">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/jochri3/image/upload/v1625127299/OC/1-reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Auberge la Cannabière</h2>
+                            <p class="card_description">Prix à prix de <span>25€</span></p>
+                            <div class="rating-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star gris"></i>
+                              
+                            </div>
+                            </div>
                         </div>
-                        <div class="contourblanc carteH2">
-                            <div class="imgH2"></div>
-                            <div class="textajuste2"><h3>Hôtel du port</h3>
-                            <p>Nuit à partir de 52€</p>
-                            <div class="etoilereglage2"><i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i></div></div>
+                        <div class="card2">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/fred-kleber-gTbaxaVLvsg-unsplash_vmfx4b.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Hôtel du port</h2>
+                            <p class="card_description">Prix à prix de <span>52€</span></p>
+                            <div class="rating-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star bleu"></i>
+                            </div>
+                            </div>
                         </div>
-                        <div class="contourblanc carteH3">
-                            <div class="imgH3"></div>
-                            <div class="textajuste3"><h3 class="espacereglage">Hôtel Les mouettes</h3>
-                            <p>Nuit à partir de 76€</p>
-                            <div class="etoilereglage3"><i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleur"></i>
-                                <i class="fas fa-star couleurGris"></i></div></div>
+                        <div class="card">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/reisetopia-B8WIgxA_PFU-unsplash_osstnl.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Hôtel Les mouettes</h2>
+                            <p class="card_description">Prix à prix de <span>76€</span></p>
+                            <div class="rating-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star gris"></i>
+                            </div>
+                            </div>
                         </div>
                     </div>
                     <div class="c2 flexBetween Hbloc2 ">
-                        <div class="contourblanc carteH4">
-                            <div class="imgH4"></div>
-                            <div class="textajuste4"><h3>Hôtel de la mer</h3>
-                            <p>Nuit à partir de 46€</p>
-                            <div class="etoilereglage4"><i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleurGris"></i>
-                            <i class="fas fa-star couleurGris"></i></div></div>
-                        </div>   
-                    <div class="contourblanc carteH5">
-                        <div class="imgH5"></div>
-                        <div class="textajuste5"><h3>Auberge Le Panier</h3>
-                        <p>Nuit à partir de 23€</p>
-                        <div class="etoilereglage5"><i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleurGris"></i></div></div>
-                    </div>
-                    <div class="contourblanc carteH6">
-                        <div class="imgH6"></div>
-                        <div class="textajuste6"><h3>Hôtel chez Amina</h3>
-                        <p>Nuit à partir de 96€</p>
-                        <div class="etoilereglage6"><i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i>
-                            <i class="fas fa-star couleur"></i></div></div>
-                    </div>
+                        <div class="card">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/annie-spratt-Eg1qcIitAuA-unsplash_s6koeq.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Hôtel de la mer</h2>
+                            <p class="card_description">Prix à prix de <span>46€</span></p>
+                            <div class="rating-stars gris">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star gris"></i>
+                              <i class="fas fa-star gris"></i>
+                            </div>
+                            </div>
+                        </div>  
+                        <div class="card3">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/nicate-lee-kT-ZyaiwBe0-unsplash_hbdb7x.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Auberge Le Panier</h2>
+                            <p class="card_description">Prix à prix de <span>23€</span></p>
+                            <div class="rating-stars gris">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star bleu"></i>
+                            </div>
+                            </div>
+                        </div>  
+                        <div class="card">
+                            <div class="card__picture-box">
+                               <img class="card__picture" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/febrian-zakaria-M6S1WvfW68A-unsplash_ahsj82.jpg" alt="" />
+                            </div>
+                            <div class="card__body">
+                              <h2 class="card__heading">Hôtel chez Amina</h2>
+                            <p class="card_description">Prix à prix de <span>96€</span></p>
+                            <div class="rating-stars gris">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star gris"></i>
+                            </div>
+                            </div>
+                        </div>
                 </div>
                 <h3 class="txtafficherplus">Afficher plus</h3>
             </div>
@@ -121,74 +157,113 @@
                     <div class="iconepop"><i class="fas fa-chart-line fa-lg"></i></div>
                 </div>
                 <div class="fexbetweenresponsive">
-                <div class="flexcentre contourblancpop espacePop1-2 responsive1 marge">
-                    <div class="imgP1"></div>
-                    <div class="contourajuste"><div class="textimgP">
-                    <h3 class="responsiveipad2">Hôtel Le soleil du matin</h3>
-                    <p>Nuit à partir de 128€</p></div>
-                    <div class="etoileplacementpop">
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i></div></div>
-                </div>
-                <div class="flexcentre contourblancpop espacePop1-2 responsive2">
-                    <div class="imgP2"></div>
-                    <div class="contourajuste"><div class="textimgP">
-                    <h3  class="Hresponsive">Au Cœur de l'eau Chambre d'hôtes</h3>
-                    <p>Nuit à partir de 71€</p></div>
-                    <div><i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleurGris"></i></div></div>
-                    
-                </div>
-                <div class="flexcentre contourblancpop responsive3">
-                    <div class="imgP3"></div>
-                    <div class="contourajuste textimgP1 "><div class="textimgP">
-                    <h3>Hôtel Tout bleu et Blanc</h3>
-                    <p>Nuit à partir de 68€</p></div>
-                    <div><i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleur"></i>
-                        <i class="fas fa-star couleurGris"></i></div></div>
+                    <div class="card__pop">
+                        <div class="card__picture__pop-box">
+                           <img class="card__picture__pop" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/emile-guillemot-Bj_rcSC5XfE-unsplash_rkz4qj.jpg" alt="" />
+                        </div>
+                        <div class="card__body__pop">
+                          <h2 class="card__heading__pop">Hôtel Le soleil du matin</h2>
+                        <p class="card_description__pop">Prix à prix de <span>128€</span></p>
+                        <div class="rating__pop-stars gris">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star bleu"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card__pop marge1">
+                        <div class="card__picture__pop-box">
+                           <img class="card__picture__pop" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/aw-creative-VGs8z60yT2c-unsplash_e4rmxq.jpg" alt="" />
+                        </div>
+                        <div class="card__body__pop">
+                          <h2 class="card__heading__pop">Au Cœur de l'eau Chambre d'hôtes</h2>
+                        <p class="card_description__pop">Prix à prix de <span>71€</span></p>
+                        <div class="rating__pop-stars gris">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star gris"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card__pop">
+                        <div class="card__picture__pop-box">
+                           <img class="card__picture__pop" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/febrian-zakaria-sjvU0THccQA-unsplash_skomar.jpg" alt="" />
+                        </div>
+                        <div class="card__body__pop">
+                          <h2 class="card__heading__pop">Hôtel Tout bleu et Blanc</h2>
+                        <p class="card_description__pop">Prix à prix de <span>68€</span></p>
+                        <div class="rating__pop-stars gris">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star gris"></i>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div> 
         </aside>
-    </article>
-        <article id="activité" class="Activites">
+    <article>
+        <aside id="activité" class="Activites">
             <h2 class="reglageespacetitre">Activités à Marseille</h2>
             <div class="flexBetween blocactivites ">
-                <div class="blocA flexcentrecolone"><div class="imgact1"></div>
-                <div class="titrereglage titrehauteur"><h3>Vieux Port</h3></div></div>
+                <div class="card__act">
+                    <div class="card__picture__act-box">
+                       <img class="card__picture__act" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041847/reno-laithienne-QUgJhdY5Fyk-unsplash_uxor8a.jpg" alt="" />
+                    </div>
+                    <div class="card__body__act">
+                      <h2 class="card__heading__act">Hôtel Tout bleu et Blanc</h2></div></div>
             
-            <div class="flexBetweencolone blocactivites2356">
-                <div class="blocA2356 blocA2 flexcentrecolone"><div class="imgact2"></div>
-                <div class="titrereglage titrehauteur"><h3>Fort de Pomègues</h3></div></div>
+            <div class="flexBetweencolone  ">
+                <div class="card__actcartebas2">
+                    <div class="card__picture__actcartebas-box">
+                       <img class="card__picture__actcartebas" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/paul-hermann-QFTrLdQIRhI-unsplash_ggxhqb.jpg" alt="" />
+                    </div>
+                    <div class="card__body__actcartebasd">
+                      <h2 class="card__heading__actcartebas">Fort de Pomèguesl</h2></div></div>
             
-            <div class="flexcentrecolone blocA2356 reglageespace">
-                <div class="imgact3"></div>
-                <div class="titrereglage titrehauteur"><h3>îles du Frioul</h3></div>
+            <div class="flexcentrecolone  reglageespace">
+                <div class="card__actcartebasd">
+                    <div class="card__picture__actcartebasd-box">
+                       <img class="card__picture__actcartebasd" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/kevin-hikari-rV_Qd1l-VXg-unsplash_onbgcc.jpg" alt="" />
+                    </div>
+                    <div class="card__body__actcartebasd">
+                      <h2 class="card__heading__actcartebasd">îles du Frioul</h2></div></div>
             </div>
             </div>
-            <div class="blocA flexcentrecolone reglageresponsive"><div class="imgact4"></div>
-                <div class="titrereglage titrehauteur"><h3>Parc National des Calanques</h3></div>
-            </div>
+            <div class="card__act">
+                <div class="card__picture__act-box">
+                   <img class="card__picture__act" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041846/kilyan-sockalingum-NR8-cBCN3aI-unsplash_jas21m.jpg" alt="" />
+                </div>
+                <div class="card__body__act">
+                  <h2 class="card__heading__act">Parc National des Calanques</h2></div></div>
             
-            <div class="flexBetweencolone blocactivites2356">
-                <div class="blocA2356 flexcentrecolone reglageipad"><div class="imgact5 "></div>
-                <div class="titrereglage titrehauteur"><h3>Notre-Dame-de-la-Garde</h3></div>
-            </div>
+            <div class="flexBetweencolone">
+                <div class="card__actcartebasd2">
+                    <div class="card__picture__actcartebasd-box">
+                       <img class="card__picture__actcartebasd" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041844/florian-wehde-xW9e8gdotxI-unsplash_ehyzbh.jpg" alt="" />
+                    </div>
+                    <div class="card__body__actcartebasd">
+                      <h2 class="card__heading__actcartebasd">Notre-Dame-de-la-Garde</h2></div></div>
             
-            <div class="flexcentrecolone blocA2356 reglageespace ">
-                <div class="imgact6"></div>
-                <div class="titrereglage titrehauteur"><h3>Parc Longchamp</h3></div>
+            
+            <div class="flexcentrecolone  reglageespace ">
+                <div class="card__actcartebas">
+                    <div class="card__picture__actcartebas-box">
+                       <img class="card__picture__actcartebas" src="https://res.cloudinary.com/dx8au0kkp/image/upload/v1625041847/reno-laithienne-QUgJhdY5Fyk-unsplash_uxor8a.jpg" alt="" />
+                    </div>
+                    <div class="card__body__actcartebas">
+                      <h2 class="card__heading__actcartebas">Parc Longchamp</h2></div></div>
             </div>
-        </article>
+            </div>
+        </div>
+        </aside>
+    </article>
     </section>
     <footer>
         <div class=" footer fondgris3 flexBetween">
