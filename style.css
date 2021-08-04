@@ -8,6 +8,10 @@ body {
     width: 100%;
 }
 
+h1 {
+    text-align : right;
+}
+
 
 body {
    overflow-x: hidden; 
