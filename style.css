@@ -629,7 +629,7 @@ padding: 1% 0 1% 1%;
                                                                                  /* Activites -- carte 1 et 4 */
 
 .Activites {
-    margin-left: 15px;
+    margin-left: 70px;
 }
 
 .card__act{
@@ -1638,6 +1638,10 @@ left: 20px;
         display: block;
         width: 375px;
         flex-direction: column;
+    }
+
+    .Activites {
+        margin-left: 0px;
     }
 
     
